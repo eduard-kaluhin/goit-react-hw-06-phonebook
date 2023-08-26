@@ -2,14 +2,14 @@ import styled from '@emotion/styled';
 
 export const Button = styled.button`
   padding: 10px;
-  width: 150px;
-  background-color: darkblue;
+  width: 100%;
+  background-color: blue;
   font-size: 18px;
   border-radius: 14px;
   color: white;
   font-weight: bold;
   &:hover {
-    background-color: black;
+    background-color: green;
   }
 `;
 export const Label = styled.label`
